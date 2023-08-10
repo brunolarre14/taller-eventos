@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 
-    const div = document.querySelector("div") // Guardo el div en una variable para utilizarlo mas adelante
+    const div = document.querySelector("div") // Guardo el div en una variable local para utilizarlo mas adelante
 
-    const btn = document.querySelector("button") // Guardo el button en una variable para utilizarlo mas adelante
+    const btn = document.querySelector("button") // Guardo el button en una variable local para utilizarlo mas adelante
 
     function alertDiv() {
         alert("Hola! Soy el div") 
